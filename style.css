@@ -1,0 +1,79 @@
+/* General Styles */
+body {
+    font-family: Calibri, Arial, sans-serif;
+    background-color: #001f3f; /* Dark Blue Background */
+    margin: 0;
+    padding: 20px;
+}
+
+/* Header */
+h3 {
+    font-size: 25pt;
+    font-weight: bold;
+    color: white; /* White text for contrast */
+    text-align: center;
+    text-decoration: underline;
+}
+
+/* Form Styles */
+form {
+    max-width: 600px;
+    margin: 0 auto;
+    background: #ffffff; /* White background for form */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(255, 255, 255, 0.5);
+}
+
+/* Table */
+table {
+    width: 100%;
+    font-size: 11pt;
+    color: white;
+    background-color: #003366; /* Slightly lighter dark blue */
+    border-collapse: collapse;
+    border: 2px solid white;
+    text-align: left;
+}
+
+/* Table Cells */
+td {
+    padding: 10px;
+}
+
+/* Inputs, Select & Textarea */
+input, select, textarea {
+    padding: 8px;
+    width: 100%;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+/* Radio & Checkbox */
+input[type="radio"], input[type="checkbox"] {
+    width: auto;
+}
+
+/* Buttons */
+input[type="submit"], input[type="reset"] {
+    background-color: #28a745; /* Green for Submit */
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 5px;
+}
+
+input[type="reset"] {
+    background-color: #dc3545; /* Red for Reset */
+}
+
+input[type="submit"]:hover {
+    background-color: #218838;
+}
+
+input[type="reset"]:hover {
+    background-color: #c82333;
+}
